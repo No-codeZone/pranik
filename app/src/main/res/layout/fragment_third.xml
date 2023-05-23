@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.Fragment.ThirdFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="50dp"
+            android:background="#FFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:text="Settings"
+                android:textColor="#5A82A5"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginTop="20dp"-->
+            <!--            android:orientation="horizontal">-->
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Name : "-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:textColor="#506577"-->
+            <!--                android:textStyle="bold"/>-->
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:id="@+id/usernameProfile"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:textColor="#5A82A5"-->
+            <!--                android:gravity="center"/>-->
+            <!--        </LinearLayout>-->
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginTop="20dp"-->
+            <!--            android:orientation="horizontal">-->
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Name : "-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:textColor="#506577"-->
+            <!--                android:textStyle="bold"/>-->
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:id="@+id/usernameProfile"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:textColor="#5A82A5"-->
+            <!--                android:gravity="center"/>-->
+            <!--        </LinearLayout>-->
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginTop="20dp"-->
+            <!--            android:orientation="horizontal">-->
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Name : "-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:textColor="#506577"-->
+            <!--                android:textStyle="bold"/>-->
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:id="@+id/usernameProfile"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:textColor="#5A82A5"-->
+            <!--                android:gravity="center"/>-->
+            <!--        </LinearLayout>-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittext_drawable"
+                android:backgroundTint="#506577"
+                android:drawableRight="@drawable/baseline_logout_24"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

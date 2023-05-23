@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".screen.DashboardActivity"
+        android:background="#F3F3F2"
+        android:orientation="vertical">
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/text"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginBottom="56dp"-->
+        <!--        android:gravity="center"-->
+        <!--        android:text="Welcome "-->
+        <!--        android:textColor="#5A82A5"-->
+        <!--        android:textSize="25sp"-->
+        <!--        app:layout_constraintBottom_toTopOf="@+id/btnLogout"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintStart_toStartOf="@+id/flFragment"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/flFragment" />-->
+
+        <!--    <Button-->
+        <!--        android:id="@+id/btnLogout"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:backgroundTint="#5A82A5"-->
+        <!--        android:text="Logout"-->
+        <!--        android:textAllCaps="false"-->
+        <!--        android:layout_marginStart="60dp"-->
+        <!--        android:layout_marginEnd="60dp"-->
+        <!--        android:layout_marginTop="50dp"-->
+        <!--        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/flFragment"-->
+        <!--        app:layout_constraintVertical_bias="0.588"-->
+        <!--        tools:layout_editor_absoluteX="58dp" />-->
+
+        <FrameLayout
+            android:id="@+id/flFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            android:background="#5A82A5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_navbar"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

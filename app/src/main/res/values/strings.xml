@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pranik</string>
+    <string name="home">Home</string>
+    <string name="homeUser"><b>Home</b></string>
+    <string name="profileUser"><b>Profile</b></string>
+    <string name="attendanceUser"><b>Attendance</b></string>
+    <string name="PersonalDetails"><u>Personal Details</u></string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="currentLocation"><u>Current GPS Location</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="enable_gps"><b>enable_gps</b></string>
+    <string name="required_for_this_app"><b>required_for_this_app</b></string>
+    <string name="enable_now"><b>enable_now</b></string>
+    <string name="location_permission_not_granted"><b>location_permission_not_granted</b></string>
+    <string-array name="activeStatus">
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+</resources>
