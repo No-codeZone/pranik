@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<!--    android:background="#F3F3F2"-->
+    <FrameLayout
+        android:layout_marginBottom="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F3F3F2"
+        tools:context=".fragment.HomeFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Current Location"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:background="#506577"-->
+<!--                android:layout_marginBottom="10dp"/>-->
+            <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rcViewUserList"
+                    android:padding="10dp">
+                </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

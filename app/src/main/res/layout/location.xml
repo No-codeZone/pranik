@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/getLoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="300dp"
+            android:text="Current GPS Location"
+            android:textColor="#5A82A5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
